@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : lun. 16 déc. 2024 à 12:39
+-- Généré le : jeu. 19 déc. 2024 à 09:45
 -- Version du serveur : 9.1.0
 -- Version de PHP : 8.3.14
 
@@ -28,31 +28,18 @@ USE `tifosi`;
 --
 
 INSERT INTO `boisson` (`id_boisson`, `id_marque`, `nom_boisson`, `marque`) VALUES
-(1, 0, 'nom_boisson', 'marque'),
-(2, 0, 'Coca-cola zéro', 'Coca-cola'),
-(3, 0, 'Coca-cola original', 'Coca-cola'),
-(4, 0, 'Fanta citron', 'Coca-cola'),
-(5, 0, 'Fanta orange', 'Coca-cola'),
-(6, 0, 'Capri-sun', 'Coca-cola'),
-(7, 0, 'nom_boisson', 'marque'),
-(8, 0, 'Coca-cola zéro', 'Coca-cola'),
-(9, 0, 'Coca-cola original', 'Coca-cola'),
-(10, 0, 'Fanta citron', 'Coca-cola'),
-(11, 0, 'Fanta orange', 'Coca-cola'),
-(12, 0, 'Capri-sun', 'Coca-cola'),
-(13, 0, 'nom_boisson', 'marque'),
-(14, 0, 'Coca-cola zéro', 'Coca-cola'),
-(15, 0, 'Coca-cola original', 'Coca-cola'),
-(16, 0, 'Fanta citron', 'Coca-cola'),
-(17, 0, 'Fanta orange', 'Coca-cola'),
-(18, 0, 'Capri-sun', 'Coca-cola'),
-(19, 0, 'Pepsi', 'Pepsico'),
-(20, 0, 'Pepsi Max Zéro', 'Pepsico'),
-(21, 0, 'Lipton zéro citron', 'Pepsico'),
-(22, 0, 'Lipton Peach', 'Pepsico'),
-(23, 0, 'Monster energy ultra gold', 'Monster'),
-(24, 0, 'Monster energy ultra blue', 'Monster'),
-(25, 0, 'Eau de source ', 'Cristalline');
+(1, 0, 'Coca-cola zéro', 'Coca-cola'),
+(2, 0, 'Coca-cola original', 'Coca-cola'),
+(3, 0, 'Fanta citron', 'Fanta'),
+(4, 0, 'Fanta orange', 'Fanta'),
+(5, 0, 'Capri-sun', 'Capri-sun'),
+(6, 0, 'Pepsi', 'Pepsico'),
+(7, 0, 'Pepsi Max Zéro', 'Pepsico'),
+(8, 0, 'Lipton zéro citron', 'Lipton'),
+(9, 0, 'Lipton Peach', 'Lipton'),
+(10, 0, 'Monster energy ultra blue', 'Monster'),
+(11, 0, 'Monster energy ultra blue', 'Monster'),
+(12, 0, 'Eau de source', 'Cristalline');
 
 --
 -- Déchargement des données de la table `focaccia`
@@ -99,6 +86,19 @@ INSERT INTO `ingredient` (`id_ingredient`, `nom_ingredient`) VALUES
 (22, 'Raclette'),
 (23, 'Salami'),
 (24, 'Tomate cerise');
+
+--
+-- Déchargement des données de la table `marque`
+--
+
+INSERT INTO `marque` (`id_marque`, `nom_marque`) VALUES
+(0, 'nom_marque'),
+(1, 'Coca-cola'),
+(2, 'Cristalline'),
+(3, 'Monster'),
+(4, 'Pepsico'),
+(5, 'Fanta'),
+(6, 'Capri-sun');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
