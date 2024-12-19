@@ -28,6 +28,7 @@ Script de peuplement (populate_tifosi.sql) : insère des données de test dans l
 
 Script de sauvegarde (backup_tifosi.sql) : sauvegarde complète de la base de données (structure + données).
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 INSTALLATION ET CONFIGURATION
 
 Étape 1 : Création de la base de données
