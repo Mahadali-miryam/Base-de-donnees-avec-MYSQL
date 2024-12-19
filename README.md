@@ -3,6 +3,7 @@ PROJET BASE DE DONNÉES TIFOSI
 DESCRIPTION
 
 Ce projet vise à concevoir une base de données dynamique pour le restaurant "Le Tifosi", spécialisé dans la street-food italienne. 
+
 La base de données permet de gérer les informations sur les focaccias, les ingrédients, les marques et les boissons.
 
 PRÉ-REQUIS 
