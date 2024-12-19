@@ -28,9 +28,11 @@ INSTALLATION ET CONFIGURATION
 Connectez-vous à phpMyAdmin.
 Créez une base de données nommée tifosi.
 Créez un utilisateur nommé tifosi avec un mot de passe sécurisé, et attribuez-lui tous les droits sur cette base.
+
 Étape 2 : Importation des scripts
 Importez le fichier structue_tifosi.sql pour créer la structure de la base.
 Importez le fichier populate_tifosi.sql pour insérer les données de test.
+
 Étape 3 : Sauvegarde
 Utilisez le fichier backup_tifosi.sql pour restaurer la base en cas de besoin.
 
