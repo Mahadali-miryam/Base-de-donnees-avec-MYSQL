@@ -1,6 +1,7 @@
 PROJET BASE DE DONNÉES TIFOSI
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 DESCRIPTION
+
 Ce projet consiste à concevoir une base de données dynamique pour le restaurant "Le Tifosi", spécialisé dans la street-food italienne.
 La base de données permet de gérer les informations sur :
 
@@ -11,6 +12,7 @@ Les boissons
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 PRÉ-REQUIS
+
 Avant de commencer, assurez-vous d'avoir :
 
 Serveur MySQL (via WAMP, XAMPP, ou autre).
