@@ -43,8 +43,6 @@ Importez le fichier populate_tifosi.sql pour insérer les données de test.
 
 Étape 3 : Sauvegarde
 Pour restaurer la base de données en cas de besoin, utilisez le fichier backup_tifosi.sql.
-REMARQUES IMPORTANTES
-Vérifiez que vos scripts s’exécutent sans erreur dans phpMyAdmin.
-Assurez-vous que l’utilisateur tifosi a bien les privilèges nécessaires pour administrer la base.
+
 
 
