@@ -31,14 +31,20 @@ Script de sauvegarde (backup_tifosi.sql) : sauvegarde complète de la base de do
 INSTALLATION ET CONFIGURATION
 
 Étape 1 : Création de la base de données
+
 Connectez-vous à phpMyAdmin.
+
 Créez une base de données nommée tifosi.
+
 Créez un utilisateur nommé tifosi avec :
+
 Un mot de passe sécurisé.
+
 Tous les droits attribués sur la base de données tifosi.
 
 Étape 2 : Importation des scripts
 Importez le fichier structure_tifosi.sql pour créer la structure de la base de données.
+
 Importez le fichier populate_tifosi.sql pour insérer les données de test.
 
 Étape 3 : Sauvegarde
